@@ -13,12 +13,13 @@ local mutedSounds = {
 
 }
 
--- Map Spell Names to Sound Files
--- Ensure your sound files are in Interface/AddOns/RogueVanilla/Sounds/
+-- Map Spell Names to Sound IDs (File IDs)
+-- These are internal game sounds
 local spellSounds = {
-    ["Backstab"] = "Interface\\AddOns\\RogueVanilla\\Sounds\\Strike.ogg",
-    ["Ambush"] = "Interface\\AddOns\\RogueVanilla\\Sounds\\Strike.ogg",
-    ["Vanish"] = "Interface\\AddOns\\RogueVanilla\\Sounds\\Vanish.ogg",
+    ["Backstab"] = 569059, -- Strike.ogg
+    ["Ambush"] = 569059,
+    ["Vanish"] = 568798,
+    ["Kidney Shot"] = 569110,
 }
 
 frame:RegisterEvent("ADDON_LOADED")
