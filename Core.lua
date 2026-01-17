@@ -40,10 +40,10 @@ SlashCmdList["ROGUEVANILLA"] = function(msg)
     isEnabled = not isEnabled
     if isEnabled then
         MuteAll()
-        print("|cff00ff00RogueVanilla|r: Enabled. Sounds muted.")
+        print("|cff00ff00RogueVanilla|r: Enabled.")
     else
         UnmuteAll()
-        print("|cffff0000RogueVanilla|r: Disabled. Sounds unmuted.")
+        print("|cffff0000RogueVanilla|r: Disabled.")
     end
 end
 
