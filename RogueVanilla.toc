@@ -1,0 +1,7 @@
+## Interface: 20505
+## Title: RogueVanilla
+## Notes: Replaces Rogue ability sounds with Vanilla versions.
+## Author: Antigravity
+## Version: 1.0
+
+Core.lua
