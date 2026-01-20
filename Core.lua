@@ -18,6 +18,7 @@ local spellSounds = {
     ["Backstab"] = 569059, -- Strike.ogg
     ["Ambush"] = 569059,
     ["Vanish"] = 568798,
+    ["Shadowstep"] = 569796,
 }
 
 local isEnabled = true
